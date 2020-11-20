@@ -1,0 +1,30 @@
+# Visual Studio code
+.vscode/*
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+*.code-workspace
+
+#Ignore downloaded files
+files/
+cnpj_files/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
